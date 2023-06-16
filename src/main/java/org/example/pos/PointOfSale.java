@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class PointOfSale {
 
-    private TaxCalculator taxCalculator;
+    private final TaxCalculator taxCalculator;
 
     private int runningTotal = 0;
 
@@ -28,10 +28,6 @@ public class PointOfSale {
 
     public Map<MenuItem, Integer> getOrder() {
         return order;
-    }
-
-    public int getRunningTotal() {
-        return runningTotal;
     }
 
     public int getTax() {

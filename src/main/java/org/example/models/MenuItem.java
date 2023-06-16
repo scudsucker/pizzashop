@@ -1,9 +1,6 @@
 package org.example.models;
 
 public class MenuItem {
-    public String get_name() {
-        return _name;
-    }
 
     private String _name;
     private int _costInCents;

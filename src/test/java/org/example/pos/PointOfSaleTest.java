@@ -1,7 +1,6 @@
 package org.example.pos;
 
 import org.example.models.MenuItem;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,9 +13,9 @@ public class PointOfSaleTest {
     // SUT
     private static PointOfSale pos;
 
-    private MenuItem pizza = new MenuItem("pizza", 10000);
-    private MenuItem beer = new MenuItem("beer", 4750);
-    private MenuItem water = new MenuItem("water", 0);
+    private static final MenuItem pizza = new MenuItem("pizza", 10000);
+    private static final MenuItem beer = new MenuItem("beer", 4750);
+    private static final MenuItem water = new MenuItem("water", 0);
 
     private static final double taxRate = 14.5; // In %
 
@@ -119,6 +118,5 @@ public class PointOfSaleTest {
         assertThat(tax).isEqualTo(0);
         assertThat(totalAfterTax).isEqualTo(0);
     }
-
 
 }
