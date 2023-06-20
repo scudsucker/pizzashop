@@ -5,12 +5,12 @@ import static java.lang.Math.toIntExact;
 
 public class TaxCalculator {
 
-    private final double _taxRate;
-    public TaxCalculator(double taxRate) {
-        _taxRate = taxRate / 100; // convert from % to fraction
+    private final double taxRate;
+    public TaxCalculator(double taxRatePercent) {
+        taxRate = taxRatePercent / 100; // convert from % to fraction
     }
 
     public int getTax(int totalSoFar) {
-        return toIntExact(round(totalSoFar * _taxRate));
+        return toIntExact(round(totalSoFar * taxRate));
     }
 }

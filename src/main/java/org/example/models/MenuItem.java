@@ -2,20 +2,21 @@ package org.example.models;
 
 public class MenuItem {
 
-    private String _name;
-    private int _costInCents;
+    private String itemName;
+    private int costInCents;
 
     public MenuItem(String name, int costInCents) {
-        this._name = name;
-        this._costInCents = costInCents;
+        this.itemName = name;
+        this.costInCents = costInCents;
     }
 
-    public String get_names() {
-        return _name;
+    // Note - this GET is not used. Intentionally left in the code - see README
+    public String get_name() {
+        return itemName;
     }
 
     public int get_costInCents() {
-        return _costInCents;
+        return costInCents;
     }
 
 }
