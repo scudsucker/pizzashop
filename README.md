@@ -3,7 +3,7 @@
 ## Source ##
 https://github.com/scudsucker/pizzashop
 
-In order to supply some handwritten code of my own, I decided to create an "interview stale test".
+In order to supply some handwritten code of my own, I decided to create an "interview style test".
 
 ## User Story ##
 Scenario: a restaurant point of sale needs to provide an accurate bill at the end of the night, for an arbitrary number of people eating.
