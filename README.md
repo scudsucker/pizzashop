@@ -3,7 +3,7 @@
 ## Source ##
 https://github.com/scudsucker/pizzashop
 
-In order to supply some handwritten code of my own, I decided to create an "interview style test".
+In order to supply some handwritten code of my own, I decided to create an "interview style test". This is based on a test I have done, so it was not entirely my work - the scenario was copied and modified. However, the code is entirely my own. 
 
 ## User Story ##
 Scenario: a restaurant point of sale needs to provide an accurate bill at the end of the night, for an arbitrary number of people eating.
